@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+    <link href='style.css' rel='stylesheet' />
+    <div id='map'></div>
+    <div id='info-box'>
+        <h3>Transit Isochrones</h3>
+        <p>Comparison of isochrone APIs</p>
+        <ul>
+            <li>Start Bedford Ave Station</li>
+            <li>15 Minutes</li>
+            <li>Transit and Walking</li>
+            <li>Sep 1, 2016 12:00am</li>
+        </ul>
+        <button id='opentripplanner-button'><img src="img/otp.png" /> OpenTripPlanner
+        </button>
+        <button id='navitia-button'><img src="img/navitia.png" /> Navitia</button>
+        <button id='valhalla-button'><img src="img/valhalla.png" /> Valhalla</button>
+    </div>
+    <script src='data/isochrones.geojson'></script>
+    <script src='map.js'></script>
+</body>
+
+</html>

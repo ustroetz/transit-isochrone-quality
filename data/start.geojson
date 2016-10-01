@@ -1,0 +1,15 @@
+var start = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -73.9577239, 40.7178469
+        ]
+      }
+    }
+  ]
+}
