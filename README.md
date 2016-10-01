@@ -9,7 +9,7 @@ Comparison of isochrone APIs
 * Sep 1, 2016 12:00am
 
 ## APIs
-### Opentripplanner
+### OpentripPlanner
 ``` 
 $ curl -X GET "https://otp.reallysimpleopendata.com/otp/routers/default/isochrone?routeId=default&fromPlace=40.7178469,-73.9577239&date=2016/09/01&time=12:00:00&mode=TRANSIT,WALK&cutoffSec=900"
 ```
